@@ -1,32 +1,15 @@
-# =========================
-# Backend (REQUIRED)
-# =========================
-fastapi
-uvicorn
-python-multipart
+flask
+flask-cors
+gunicorn
 
-# =========================
-# Core Python / Study
-# =========================
+# study / execution libs
 numpy
 pandas
 scipy
 sympy
-
-# =========================
-# Visualization
-# =========================
 matplotlib
-
-# =========================
-# Web & APIs
-# =========================
 requests
 beautifulsoup4
-
-# =========================
-# Utilities
-# =========================
 pillow
 tqdm
 rich
