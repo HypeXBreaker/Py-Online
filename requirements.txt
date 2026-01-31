@@ -1,0 +1,32 @@
+# =========================
+# Backend (REQUIRED)
+# =========================
+fastapi
+uvicorn
+python-multipart
+
+# =========================
+# Core Python / Study
+# =========================
+numpy
+pandas
+scipy
+sympy
+
+# =========================
+# Visualization
+# =========================
+matplotlib
+
+# =========================
+# Web & APIs
+# =========================
+requests
+beautifulsoup4
+
+# =========================
+# Utilities
+# =========================
+pillow
+tqdm
+rich
