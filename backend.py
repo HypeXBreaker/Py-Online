@@ -218,20 +218,6 @@ def health_check():
         'timestamp': time.time()
     })
 
-@app.route('/', methods=['GET'])
-def index():
-    """Root endpoint with API information"""
-    return jsonify({
-        'name': 'Python AI Runner Backend',
-        'version': '1.0.0',
-        'endpoints': {
-            '/api/run': 'POST - Execute Python code',
-            '/api/install': 'POST - Install pip package',
-            '/api/health': 'GET - Health check'
-        },
-        'documentation': 'See README.md for usage instructions'
-    })
-
 if __name__ == '__main__':
     print("=" * 60)
     print("Python AI Runner Backend Server")
